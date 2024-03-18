@@ -1,0 +1,24 @@
+body{
+    background-color: #E4EBFA;
+}
+.fully-outer{
+    max-width: 1257px;
+    margin: auto;
+    max-height: 1024px;
+}
+.fully-outer{
+    display: flex;
+}
+#navbar{
+    position: absolute;
+    top: 0%;
+    left: 300px;
+}
+@media screen and (max-width: 1114px) {
+    .fully-outer {
+        width: 100vw;
+        margin: auto;
+        height: 100vh;
+        overflow: hidden;
+    }
+}

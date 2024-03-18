@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add style to the AddNewTask container */
+.cross-icon{  
+  cursor: pointer;
+  margin-left: 5px;
+}
+.task-container{
+  border: solid #fff;
+  border-radius: 5px;
+  width: 400px;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+.heading{
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.title{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.input{
+  margin-left: 20px;
+  margin-top: 0px;
+  width: 350px;
+  height: 40px;  
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding-left: 10px;
+}
+.input::placeholder{
+  font-size: 15px; 
+}
+/* description styling */
+.description{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.description-input{
+  width: 355px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 2px;
+}
+.description-input::placeholder{
+  font-size: 2px;
+  padding: 2px;
+}
+/* subtasks styling */
+.subtask{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.subtask-input{
+  width: 330px;
+  margin-left: 20px;
+  border-radius: 5px;
+  height: 30px;
+  border: 1px solid grey;
+  margin-bottom: 5px;
+}
+.sub-button{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 360px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #635FC7;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+/* status styling */
+.status{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.status-input{
+  margin-left: 20px;
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+}
+.task-button{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 360px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  background-color: #635FC7;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+/* Add style to the Add new board */
+.column{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.column-input{
+  width: 330px;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.column-input::placeholder{
+  color: black;
+}
+/* Edit Board style */
+.board{
+  margin-left: 20px;
+  font-size: 20px;
+  color: rgb(168, 165, 165);
+  margin-bottom: 0px;
+}
+.board-input{
+  width: 330px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.board-input::placeholder{
+  color: black;
+}
+/* Add style to the deleteboard */
+.delete-container{
+  border: solid #fff;
+  width: 450px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  background-color: #fff;  
+}
+.delete{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 25px;
+  color: #EA5555;
+}
+.delete-para{
+  font-size: 15px;
+  margin-left: 25px;
+  color: rgb(0, 0, 0);
+}
+.del-btn{
+  margin-left: 25px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;
+  background-color: #EA5555;
+  color: #fff;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.can-btn{
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;  
+  color: #635FC7;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Add style to the deletetask */
+.delete-container-task{
+  border: solid #fff;
+  width: 450px;
+  margin-left: 350px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #fff;  
+}
+.delete-task{
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 25px;
+  color: #EA5555;
+}
+.delete-task-para{
+  font-size: 10px;
+  margin-left: 25px;
+  color: rgb(168, 165, 165);
+}
+.del-btn{
+  margin-left: 25px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;
+  background-color: #EA5555;
+  color: #fff;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.can-btn{
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 160px;
+  border: none;
+  border-radius: 20px;  
+  color: #635FC7;
+  height: 40px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Add style to the models */
+.models{
+  border: solid #fff;
+  width: 400px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+.model-para{
+  color: rgb(168, 165, 165);
+  font-size: 10px;
+  margin-left: 20px;
+}
+.model-task{
+  font-size: 10px;
+  color: rgb(168, 165, 165);
+  margin-left: 20px;
+}
+.model-status{
+  font-size: 10px;
+  color: rgb(168, 165, 165);
+  margin-left: 20px;
+}
+.model-input{
+  margin-left: 20px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+.model-task-para{
+  border: solid #E4EBFA;
+  width: 350px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: #E4EBFA;
+}
+.model-task-para p{
+  font-size: 10px;
+  margin-left: 20px;
+}
+#priceCheckbox1{
+  margin-left: -10px;
+}
+#priceCheckbox2{
+  margin-left: -10px;
+}
+#priceCheckbox3{
+  margin-left: -10px;
+}

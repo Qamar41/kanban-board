@@ -1,0 +1,176 @@
+.cards-outer {
+    background-color: #E4EBFA;
+    width: -moz-fit-content;
+    width: 900px;
+    position: relative;
+    right: 977px;
+    padding: 20px;
+    top: 74px;
+    display: flex;
+    height: 900px;
+}
+.cards-outer-main-body{
+    width: 280px;
+    height: 793px;
+    overflow-y: auto;
+    margin: 0px 10px;
+    position: relative;
+    right: 20px;
+    overflow-x: hidden;
+}
+.cards-inner{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 234px;
+    height: 90px;
+    margin: 20px 0px;
+    overflow-y: auto;
+    height: fit-content;
+}
+#main-heading-for-todo{
+    color: #828FA3;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 19px;
+    position: relative;
+    left: 30px;
+}
+#cards-second-heading{
+    position: relative;
+    bottom: 20px;
+}
+@media screen and (max-width: 1114px) {
+    .cards-outer {
+        background-color: #E4EBFA;
+        width: 73.1vw;
+        position: relative;
+        right: 850px;
+        padding: 20px;
+        top: 74px;
+        display: flex;
+        height: 80vh;
+    }
+    .cards-outer-main-body{
+        width: 250px;
+        height: 70vh;
+        overflow-y: auto;
+        margin: 0px 10px;
+        position: relative;
+        right: 20px;
+        overflow-x: hidden;
+    }
+    .cards-inner{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        width: 234px;
+        height: 90px;
+        margin: 20px 0px;
+        overflow-y: auto;
+        height: fit-content;
+    }
+}
+@media screen and (max-width: 1100px){
+    .cards-outer {
+        background-color: #E4EBFA;
+        width: 70vw;
+        position: relative;
+        right: 800px;
+        padding: 20px;
+        top: 74px;
+        display: flex;
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 1085px){
+    .cards-outer {
+        background-color: #E4EBFA;
+        width: 70vw;
+        position: relative;
+        right: 73%;
+        padding: 20px;
+        top: 74px;
+        display: flex;
+        height: 80vh;
+    }
+    .cards-inner{
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        width: 17vw;
+        height: 90px;
+        margin: 20px 0px;
+        overflow-y: auto;
+        height: fit-content;
+    }
+    .cards-outer-main-body{
+        width: 20vw;
+        height: 70vh;
+        overflow-y: auto;
+        margin: 0px 10px;
+        position: relative;
+        right: 20px;
+        overflow-x: hidden;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .cards-outer {
+        background-color: #E4EBFA;
+        width: -moz-fit-content;
+        width: 900px;
+        position: relative;        
+        padding: 20px;
+        top: 74px;
+        display: flex;
+        height: 900px;
+    }
+    .cards-outer-main-body{
+        width: 280px;
+        height: 793px;
+        overflow-y: auto;
+        margin: 0px 10px;
+        position: relative;
+        right: 80px;
+        overflow-x: hidden;
+
+    }
+    .cards-inner{
+        background-color: #fff;
+        border-radius:5px;
+        padding: 10px 60px;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 50px;
+        margin: 10px 60px;
+        overflow-y: auto;
+        height: fit-content; 
+                      
+    }
+    #main-heading-for-todo{
+        color: #828FA3;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 19px;
+        position: relative;        
+        margin-left: -30px;
+    }
+    #cards-first-heading{
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: -50px;
+    }
+    #cards-second-heading{
+        position: relative;
+        bottom: 20px;
+        font-size: 18px;
+        margin-left: -50px;
+    }
+}
